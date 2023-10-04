@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms in html</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <Header class="header">
+        <h1 class="heading">Forms in Html</h1>
+    </Header>
+    <main>
+        <div class="form__div">
+        <form>
+            <div class="name">
+                <!-- <h2>Enter Your First Name:</h2> -->
+                <label for="First__name">Enter Your first__name Here:</label>
+                <input class="Input__text" type="text" name="First__name"
+                id="First--name" placeholder="Your name">
+            </div>
+
+            <div class="name">
+                <!-- <h2>Enter Your Middle Name:</h2> -->
+                <label for="Midlle__name">Enter Your Middle__name Here:</label>
+                <input class="Input__text" type="text" name="Midlle__name"
+                id="Midlle--name" placeholder="Your name">
+            </div>
+
+            <div class="name">
+                <!-- <h2>Enter Your Last Name:</h2> -->
+                <label for="Last__name">Enter Your last__name Here:</label>
+                <input class="Input__text" type="text" name="Last__name"
+                id="Last--name" placeholder="Your name">
+            </div>
+
+            <div class="gender">
+                <h2>Select Your Gender:</h2>
+                <input class="Input__gender" type="radio" id="male" name="gender" value="">
+                <label for="gender">Male</label>
+                <br>
+                <input class="Input__gender" type ="radio" id="female" name="gender" value="">
+                <label for="gender">Female</label>
+            </div>
+            <div class="slect">
+                <h2>Choose Languages that you speak:</h2>
+                <input type="checkbox" id="language1" name="urdu" value="">
+                <label for="language1">URDU</label>
+                <br>
+                <input type="checkbox" id="language2" name="sindhi" value="">
+                <label for="language2">SINDHI</label>
+                <br>
+                <input type="checkbox" id="language3" name="english" value="">
+                <label for="language3">ENGLISH</label>
+                
+            </div>
+
+            <div class="phone">
+                <!-- <h2>Enter your phone number:</h2> -->
+                <label for="phone"> Enter your personal number:</label>
+                <input class="Input__text" type="tel" id="phone" name="phone" placeholder="92-"
+                 pattern="{92}-[0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9]" required>
+            </div>
+            <!-- <input type="button" value="submit"> -->
+            <div class="button">
+            <button type="submit">Submit</button>
+        </div>
+            
+        </form>
+    </div>
+    </main>
+</body>
+</html>
